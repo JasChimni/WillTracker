@@ -1,0 +1,46 @@
+{% load bootstrap_themes %}
+{% bootstrap_styles theme='darkly' type='min.css' %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Howdy!</title>
+    </head>
+    <body>
+        <h1 align="center">Assets in Blockchain</h1>
+    <table class="table table-striped table-hover ">
+  <thead>
+<br>
+<br>
+    <tr>
+      <th>Beneficiary Name</th>
+      <th>Beneficiary Email ID</th>
+      <th>Encrypted Key</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bob</td>
+      <td>Bob@hackcity.com</td>
+      <td>{{enc1}}</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>John@hackcity.com</td>
+      <td>{{enc2}}</td>
+    </tr>
+    <tr class="info">
+      <td>Chris</td>
+      <td>Chris@hackcity.com</td>
+      <td>{{enc3}}</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<a href="/" class="btn btn-primary" align="center">Create another Asset</a></div>
+    <br>
+    <br>
+<a href="#" class="btn btn-primary" align="center">Logout</a> </div>
+  </body>
+</html>

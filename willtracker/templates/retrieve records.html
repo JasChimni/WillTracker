@@ -1,0 +1,37 @@
+{% load bootstrap_themes %}
+{% bootstrap_styles theme='darkly' type='min.css' %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Howdy!</title>
+    </head>
+    <body>
+<style>
+    .side-by-side2
+    {
+      float:left;
+      padding:10px 680px;
+    }
+  </style>
+<!--display how many have entered the signature-->
+<div class="alert alert-dismissible alert-info" align="center">
+  <strong>Heads up!</strong> Only 2/3 have submitted the signature, you can view your entitlements once all the beneficiaries have submitted the signature </div>
+
+    <div class="page-header">
+              <h1 align="center" style="font-size:400%;" id="will tracker">Buried Treasure</h1>
+        </div>
+    <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Please enter your signature</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" placeholder="Signature">
+                    </div>
+                  </div>
+    <form action="someroutename" method="POST">
+                <br>
+        <div class="side-by-side2">
+            <br>
+            <a href="/view record/" class="btn btn-primary">Submit</a>
+        </div>
+        </form>
+     </body>
+</html>
